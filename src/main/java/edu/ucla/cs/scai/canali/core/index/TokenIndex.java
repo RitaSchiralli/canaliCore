@@ -81,6 +81,7 @@ public class TokenIndex {
 	protected static final HashMap<Integer, IndexedToken> elements;
 	protected static final HashMap<String, Integer> ontologyElementsIdByUri;
 	protected static final Analyzer analyzer;
+//	protected static final PerFieldAnalyzerWrapper analyzer;
 	protected static final Directory directory;
 
 	private static final String PATH;
